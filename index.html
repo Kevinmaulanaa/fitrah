@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- ICONS -->
+      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+      <title>Portfolio</title>
+   </head>
+   <body>
+      <div>
+         <img class="scrollTop" onclick="scrollToTop()" src="img/bxs-chevron-up-circle.svg" alt="">
+      </div>
+      <!-- HEADER -->
+      <header class="l-header">
+         <nav class="nav bd-grid">
+            <div>
+               <a href="#" class="nav__logo">ROID<span>FITRAH</span></a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item"><a  href="#home" class="nav__link active">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                  <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-menu'></i>
+            </div>
+         </nav>
+      </header>
+      <!-- MAIN -->
+      <main class="l-main">
+         <!-- HOME-SECTION -->
+         <section class="home bd-grid" id="home">
+            <div class="home__data">
+               <h1 class="home__title">Saya <span class="home__title-color"></span></h1>
+            </div>
+            <div class="home__wrapper">
+               <div class="home__social">
+                  <a href="#" target="__blank" class="home__social-icon"><i class='bx bx-envelope' ></i></a>
+                  <a href="#" target="__blank" class="home__social-icon"><i class='bx bxl-whatsapp'></i></i></a>
+                  <a href="#" target="__blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+
+               </div>
+               <div class="home__img">
+                  <img src="img/my-img.jpg" alt="My photo">
+               </div>
+            </div>
+         </section>
+         <!-- ABOUT-SECTION -->
+         <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+               <div class="about__img">
+                  <img src="img/my-img.jpg" alt="My image">
+               </div>
+               <div>
+                  <h2 class="about__subtitle">Saya Roid Fitrah</h2>
+                  <p class="about-text">Saya adalah Roid Fitrah Utari, saya menyukai hal-hal berbau teknologi dan mempunya interest dengan beberapa Bahasa Pemrograman: <i><strong>Java dan Android Studio Sebagai TOOLS yang saya biasa gunakan dalam membuat project</strong></i></p>
+               </div>
+            </div>
+         </section>
+         <!-- SKILLS-SECTION -->
+         <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+               <div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-python skills__icon'></i>
+                        <span class="skills__name">Python</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">70%</span>
+                     </div>
+                     <div class="skills__bar skills__python"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-django skills__icon' ></i>
+                        <span class="skills__name">Django</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">65%</span>
+                     </div>
+                     <div class="skills__bar skills__django"></div>
+                  </div>
+                   <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-github skills__icon'></i>
+                        <span class="skills__name">Flask</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">70%</span>
+                     </div>
+                     <div class="skills__bar skills__flask"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML5</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">75%</span>
+                     </div>
+                     <div class="skills__bar skills__html"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon' ></i>
+                        <span class="skills__name">CSS3</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">46%</span>
+                     </div>
+                     <div class="skills__bar skills__css"></div>
+                  </div>
+               </div>
+               <div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bx-dots-horizontal-rounded skills__icon'></i>
+                        <span class="skills__name">Flutter</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">60%</span>
+                     </div>
+                     <div class="skills__bar skills__flutter"></div>
+                  </div>
+                   <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-github skills__icon'></i>
+                        <span class="skills__name">Dart</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">52%</span>
+                     </div>
+                     <div class="skills__bar skills__dart"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-bootstrap skills__icon'></i>
+                        <span class="skills__name">Bootstrap 4</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">55%</span>
+                     </div>
+                     <div class="skills__bar skills__bootstrap"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-git skills__icon'></i>
+                        <span class="skills__name">Git</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">60%</span>
+                     </div>
+                     <div class="skills__bar skills__git"></div>
+                  </div>
+                  <div class="skills__data">
+                     <div class="skills__names">
+                        <i class='bx bxl-github skills__icon'></i>
+                        <span class="skills__name">Github</span>
+                     </div>
+                     <div>
+                        <span class="skills__percentage">73%</span>
+                     </div>
+                     <div class="skills__bar skills__github"></div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </section>
+         <!-- WORK-SECTION -->
+         <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
+            <div class="work__container bd-grid">
+               <div class="work__img">
+                  <img src="img/hireme.png" alt="">
+                  <h4>Suka Suka</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="work__img">
+                  <img src="img/animey.png" alt="">
+                  <h4>MengWIbU</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="work__img">
+                  <img src="img/weather-app.png" alt="">
+                  <h4>ManPedia</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="work__img">
+                  <img src="img/animeflask.png" alt="">
+                  <h4>Buciners</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="work__img">
+                  <img src="img/baajaar.png" alt="">
+                  <h4>Baajaar</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="work__img">
+                  <img src="img/mynotes.png" alt="">
+                  <h4>MyNotes</h4>
+                  <div class="work__button-wrapper">
+                     <div class="work__btn-group">
+                        <a href="#" target="__blank" class="work__btn">Github</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- CONTACT-SECTION -->
+         <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+               <div class="contact__boxes">
+                  <div class="box">
+                     <span class="text-secondary">Email:</span> fitrahhh@gmail.com
+                  </div>
+                  <div class="box">
+                     <span class="text-secondary">Phone:</span> +62 8212929223
+                  </div>
+                  <div class="box">
+                     <span class="text-secondary">Address:</span> Duri City
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- FOOTER -->
+      <footer class="footer">
+      </footer>
+      <!-- SCROLL-REVEAL -->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="js/typed.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
+
